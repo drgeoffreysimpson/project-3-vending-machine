@@ -1,5 +1,5 @@
 # Project 3 Vending Machine
-## CYB-2004 Fall 2024
+## CYB-2004 Fall 2025
 
 ![TU Vending Machine](./utulsa_vending_maching.jpg)
 
