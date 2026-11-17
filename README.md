@@ -3,7 +3,7 @@
 
 ![TU Vending Machine](./utulsa_vending_maching.jpg)
 
-*Campus services need your help!* All the vending machine firmware was lost in a ransomware attack, and they need you to write new software for the vending machines!  Luckily, they saved all of their inventory in nicely formatted JSON files (that the malicious attackers failed to secure).  They just need the transaction log at the end of the day to keep the accountants happy and the money flowing in.  We always like to under-promise and over-deliver, so feel free to add additional features for increased clout (and bonus points).  The requirement list is daunting, so don't delay, but relax and enjoy some Nerds Gummy Clusters or some Cheetos while you work.  
+*Campus services need your help!* All the vending machine firmware was lost in a ransomware attack, and they need you to write new software for the vending machines!  Luckily, they saved all of their inventory in nicely formatted JSON files (that the malicious attackers failed to secure).  They just need the transaction log at the end of the day to keep the accountants happy and the money flowing in.  We always like to under-promise and over-deliver, so feel free to add additional features for increased clout (and bonus points).  The requirements list is daunting, so don't delay, but relax and enjoy some Nerds Gummy Clusters or some Cheetos while you work.  
 
 ### Requirements
 1. Read inventory from **tu_vending_inventory.json** (the price_usd is the price in US Dollars $)
@@ -12,12 +12,12 @@
 4. Sell items, keeping track of available inventory.
 5. You can't sell items that are out of stock (0 inventory)
 6. When the user quits, print out the sales total as part of the goodbye message
-7. Saves the ending inventory status (to *original* json **format** (it doesn't have to be the same actual file, but it could be) or database)
+7. Save the ending inventory status (to *original* JSON **format** (it doesn't have to be the same actual file, but it could be) or database)
 8. Saves the list of transactions to a CSV file OR to a database. Your CSV header row *might* look like this:
 
     `SLOT_ID,AMOUNT_USD,ITEM`
-9. Has at least two (2) Unit Tests that tests a component that you have written 
-(could be testing that the currency exchange rate calculation was done correctly, or that when a transaction is done, it is correctly stored in your transaction log, or tests that when an item is sold, it is correctly accounted for in your virtual vending machine, or makes sure the total does not increase when an out of stock item is purchased)
+9. Has at least two (2) Unit Tests that test a component that you have written 
+(could be testing that the currency exchange rate calculation was done correctly, or that when a transaction is done, it is correctly stored in your transaction log, or tests that when an item is sold, it is correctly accounted for in your virtual vending machine, or makes sure the total does not increase when an out-of-stock item is purchased)
 10. Your final code *must* be **pushed** to github.  If you are in doubt, please test it now (change this file, and push it back to GitHub to prove you know how to do it)
 11. You also must submit the project on Harvey.
 
@@ -33,7 +33,7 @@
 *10 points for each additional feature, for a total of 20 potential bonus points*
 
 Hints and things to think about
-- Start at the beginning, 
+- Start at the beginning 
 - Should an item still display if it is sold out?
 - What happens if someone tries to buy something that is sold out?
 
